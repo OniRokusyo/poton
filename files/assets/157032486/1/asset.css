@@ -1,0 +1,86 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+}
+
+p {
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+}
+
+.container {
+    position: absolute;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 30px;
+    top: calc(50% - 100px);
+    left: calc(50% - 160px);
+    width: 320px;
+}
+
+.fire {
+    position: absolute;
+    background-color: rgba(51,51,51,0);
+    bottom: 200%;
+    right: 10%;
+    width: 100px;
+    height: 100px;
+}
+
+input {
+	background-color: transparent;
+	border: 2px solid #666;
+	color: #111;
+	line-height: 20px;
+    margin: 2px; padding: 2px;
+}
+
+select {
+	background-color: transparent;
+	border: 2px solid #666;
+	color: #111;
+	line-height: 20px;
+    margin: 2px; padding: 2px;
+}
+
+button {
+	background-color: transparent;
+	border: 2px solid #666;
+	color: #111;
+	line-height: 20px;
+    margin: 2px; padding: 2px;
+}
+
+button[disabled] {
+	background-color: transparent;
+	border: 2px solid #666;
+	color: #888;
+	line-height: 20px;
+    margin: 2px; padding: 2px;
+}
+
+button:hover {
+	background-color: rgba(255, 255, 255, .4);
+}
+
+input:hover {
+	background-color: rgba(255, 255, 255, .4);
+}
+
+select:hover {
+	background-color: rgba(255, 255, 255, .4);
+}
+
+button[disabled]:hover {
+    background-color: transparent;
+}
+
+.white{
+    color: #ffffff;
+}
+
+.black{
+    color: #000000;
+}
